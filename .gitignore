@@ -1,0 +1,28 @@
+# Caches y dependencias locales de Python
+__pycache__/
+*.py[cod]
+*~
+venv/
+env/
+
+# Paquetes generados para AWS Lambda
+*.zip
+
+# Salidas de consola y archivos de testing generados manualmente
+resultado_resumen.json
+*.log
+
+# Archivos propios del sistema operativo
+.DS_Store
+Thumbs.db
+
+# IDEs y configuraciones locales
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Gradle y dependencias externas accidentales
+.gradle/
+build/
+
